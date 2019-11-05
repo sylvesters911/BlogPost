@@ -32,7 +32,7 @@ To view the maps on the .ipynb scripts click [here](https://nbviewer.jupyter.org
 
 ## Results
 
-The results can be viewed [here](https://github.com/sylvesters911/BlogPost/blob/master/BlogPostResults.html) 
+The results can be viewed [here](https://nbviewer.jupyter.org/github/sylvesters911/BlogPost/blob/master/BlogPostResults.ipynb) 
 
 ## Licensing, Authors, Acknowledgements
 
