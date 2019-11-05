@@ -27,7 +27,7 @@ For this project, I was interested in using AirBnB data from Boston and Seattle 
 
 ## Additional Links to View Folium Map
 
-Folium maps do not render on GitHub natively. It likely do with the site's settings on running JavaScript. To view the maps the .ipynb file can be dropped [here](https://nbviewer.jupyter.org/github/sylvesters911/BlogPost/blob/master/NanoDegree%20Project1%20Term2.ipynb)
+Folium maps do not render on GitHub natively. It likely do with the site's settings on running JavaScript. To view the maps on the .ipynb scripts viewed [here](https://nbviewer.jupyter.org/github/sylvesters911/BlogPost/blob/master/NanoDegree%20Project1%20Term2.ipynb)
 
 ## Results
 
