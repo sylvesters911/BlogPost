@@ -31,7 +31,7 @@ Folium maps do not render on GitHub natively. It likely do with the site's setti
 
 ## Results
 
-The results can be viewed [here](https://github.com/sylvesters911/BlogPost/blob/master/NanoDegree%20Project1%20Term2.ipynb) 
+The results can be viewed [here](https://github.com/sylvesters911/BlogPost/blob/master/BlogPostResults.html) 
 
 ## Licensing, Authors, Acknowledgements
 
