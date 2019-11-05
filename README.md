@@ -30,6 +30,9 @@ For this project, I was interested in using AirBnB data from Boston and Seattle 
 Folium maps do not render on GitHub natively. It likely do with the site's settings on running JavaScript. To view the maps the .ipynb file can be dropped [here](https://nbviewer.jupyter.org/)
 
 ## Results
+
+The results can be viewed [here](https://github.com/sylvesters911/BlogPost/blob/master/NanoDegree%20Project1%20Term2.ipynb) 
+
 ## Licensing, Authors, Acknowledgements
 
 The data for Seattle data can be obtained [here](https://www.kaggle.com/airbnb/seattle/data). The data for Boston can be obtained [here](https://www.kaggle.com/airbnb/boston). To use the nltk sentiment analyser the following aknowlagment must be made:
