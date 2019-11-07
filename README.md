@@ -22,18 +22,30 @@ When using nltk sentiment analysis a proxy might have to be considered a connect
 The vader lexicon must be downloaded using nltk.downloader.download('vader_lexicon')
 
 ## Business Understanding
-For this project, I was interested in using AirBnB data from Boston and Seattle to better understand:
+Data was provided made available to understand the resent trends in property rentals, by looking at the locations relative to each other and relative to certain local attractions price number of visits can be determined and see how they vary for the properties and could potentially adjust the price accordingly. Other potential avenues to explore is how guests perceive the properties as well as their feedback. The cities considered was Boston and Seattle to better understand:
 
-1. The average price that is charged in relation to the location of the listings
-2. The description on the listings
-3. What is the general feedback from the guests by city and how their stay is experienced  
+1. The average price that is charged in relation to the location of the listings relative to top 10 attractions
+2. The description on the listings for advertisement 
+3. What is the general feedback or sentiment from the guests by city and how their stay is experienced   
+
+By answering these questions, the guests could have a better experience, the property owners can be more efficient and AirBnB can improve their footprint as well as overall image by optimizing their criteria in terms of price, description required from owners and also minimum amenities.
 
 ## Data Understanding
+The data for as provided by AirBnB for the two cities Seattle and Boston can be obtained [here](https://www.kaggle.com/airbnb/seattle/data) and [here](https://www.kaggle.com/airbnb/boston). This data was looked at as well as inspected to see what the various attributes are. 
+
+All the columns that was going to be used was checked by looking at the number of entries as well as the number of missing values for categorical variables. In plotting the locations none of the coordinates was missing allowing for a complete view. The descriptions of the properties also did not have any missing or null entries and could be used as such.
+The sentiment analysis on the feedback by the guest saw a few missing values. As thee values was ignored and would not have a significant influence in the overall results as only 75 out of the total 153 124 records was missing.
 
 ## Prepare Data
 
-## Data Modeling
+The datasets was downloaded and inspected. It was found that the listings and review datasets will be used as the calendar data have all of the historic prices.
+A merge was performed on the review and listings data, investigation show that Boston data had three additional columns and these was identified. The identified columns was deleted as they bare no interest in the analysis.
 
+The two datasets was appended one each other and the data cleaning process began. It was found no missing values in terms of coordinates, no missing values for the descriptions of the properties. For guest feedback a small percentage was missing, these entries was dropped as the sentiment will not change so dramatically with these included.
+Additional data points was added to indicate the top 10 local attractions, this data was obtained for Seattle [here]( https://www.seattletimes.com/life/travel/seattlersquos-top-10-attractions/) and Boston [here]( https://www.boston-discovery-guide.com/top-boston-attractions.html). The coordinates was obtained from maps by searching for them individually. 
+
+## Data Modeling
+Each of the questions proposed above no new machine learning model was used, descriptive statistics was provided on the number of visits as well as the price of each per location. The sentiment analysis was performed using and already trained model and the reference on this model is included below. 
 ## Evaluate the Results
 
 The results can be viewed [here](https://nbviewer.jupyter.org/github/sylvesters911/BlogPost/blob/master/BlogPostResults.ipynb) 
@@ -45,7 +57,7 @@ To view the maps on the .ipynb scripts click [here](https://nbviewer.jupyter.org
 
 ## Licensing, Authors, Acknowledgements
 
-The data for Seattle data can be obtained [here](https://www.kaggle.com/airbnb/seattle/data). The data for Boston can be obtained [here](https://www.kaggle.com/airbnb/boston). To use the nltk sentiment analyser the following aknowlagment must be made:
+To use the nltk sentiment analyzer the following acknowledgment must be made:
 
 '''Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for
 Sentiment Analysis of Social Media Text. Eighth International Conference on
