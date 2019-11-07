@@ -3,10 +3,13 @@ Using CRISP-DM process to create a blog for AirBnB data (Seattle and Boston)
 
 ##### Table of Content
 1. [Installation](#Installation)
-2. [Project Motivation](#Project-Motivation)
-3. [Additional Links to View Folium Map](#Additional-Links-to-View-Folium-Map)
-4. [Results](#Results)
-5. [Licensing, Authors, Acknowledgements](#Licensing-Authors-Acknowledgements)
+2. [Business Understanding](#Business-Understanding)
+3. [Data Understanding](#Data-Understanding)
+4. [Prepare Data](#Prepare-Data)
+5. [Data Modeling](#Prepare-Data)
+6. [Evaluate the Results](#Evaluate-the-Results)
+7. [Additional Links to View Folium Map](#Additional-Links-to-View-Folium-Map)
+8. [Licensing, Authors, Acknowledgements](#Licensing-Authors-Acknowledgements)
 
 ## Installation
 The code should run using the stadard Python packages (Python versions 3.*). Additional libraries that you need for this project is:
@@ -18,21 +21,27 @@ The code should run using the stadard Python packages (Python versions 3.*). Add
 When using nltk sentiment analysis a proxy might have to be considered a connection can be set up by using nltk.set_proxy('<<'proxy'>>:<<'port'>>').
 The vader lexicon must be downloaded using nltk.downloader.download('vader_lexicon')
 
-## Project Motivation
+## Business Understanding
 For this project, I was interested in using AirBnB data from Boston and Seattle to better understand:
 
 1. The average price that is charged in relation to the location of the listings
 2. The description on the listings
 3. What is the general feedback from the guests by city and how their stay is experienced  
 
+## Data Understanding
+
+## Prepare Data
+
+## Data Modeling
+
+## Evaluate the Results
+
+The results can be viewed [here](https://nbviewer.jupyter.org/github/sylvesters911/BlogPost/blob/master/BlogPostResults.ipynb) 
+
 ## Additional Links to View Folium Map
 
 Folium maps do not render on GitHub natively, a viewer has to be used and the link to the viewer can be found [here](https://nbviewer.jupyter.org/), It likely do with the site's settings on running JavaScript. 
 To view the maps on the .ipynb scripts click [here](https://nbviewer.jupyter.org/github/sylvesters911/BlogPost/blob/master/NanoDegree%20Project1%20Term2.ipynb)
-
-## Results
-
-The results can be viewed [here](https://nbviewer.jupyter.org/github/sylvesters911/BlogPost/blob/master/BlogPostResults.ipynb) 
 
 ## Licensing, Authors, Acknowledgements
 
