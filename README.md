@@ -41,3 +41,6 @@ The data for Seattle data can be obtained [here](https://www.kaggle.com/airbnb/s
 '''Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for
 Sentiment Analysis of Social Media Text. Eighth International Conference on
 Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.'''
+
+Images [here](https://github.com/sylvesters911/BlogPost/blob/master/Seattle.png) for Seattle and [here](https://github.com/sylvesters911/BlogPost/blob/master/Boston.png)
+ for Boston was sourced [here](https://www.google.com/search?q=seattle+pictures&rlz=1C1GCEV_enZA846ZA846&tbm=isch&source=iu&ictx=1&fir=apRREfoghGZEwM%253A%252C2y9-WSCIHbmZRM%252C_&vet=1&usg=AI4_-kR946M9quWCEp8P7dQEHCAJvk5u9g&sa=X&ved=2ahUKEwiG3NzV6tflAhUIEcAKHTnoC80Q9QEwAHoECAcQLg#imgrc=apRREfoghGZEwM:) and [here](https://www.google.com/search?q=boston+pictures&rlz=1C1GCEV_enZA846ZA846&tbm=isch&source=iu&ictx=1&fir=8C-VIqTviVhJuM%253A%252Cl3xiktX5CWEodM%252C_&vet=1&usg=AI4_-kSRLVeT0B8JISIYS2Ejoz-SPf_avA&sa=X&ved=2ahUKEwiS7tzl6tflAhVSolwKHQEwC60Q9QEwAHoECAcQLA#imgrc=FJhNLwDX0fuJmM) respectively.
