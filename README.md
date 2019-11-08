@@ -49,7 +49,7 @@ Each of the questions proposed above no new machine learning model was used, des
 
 ## Evaluate the Results
 
-The results can be viewed [here]() 
+The results can be viewed [here](https://nbviewer.jupyter.org/github/sylvesters911/BlogPost/blob/master/BlogPostResults.ipynb) 
 
 ## Additional Links to View Folium Map
 
