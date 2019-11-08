@@ -48,7 +48,7 @@ Additional data points was added to indicate the top 10 local attractions, this 
 Each of the questions proposed above no new machine learning model was used, descriptive statistics was provided on the number of visits as well as the price of each per location. The sentiment analysis was performed using and already trained model and the reference on this model is included below. 
 ## Evaluate the Results
 
-The results can be viewed [here](https://nbviewer.jupyter.org/github/sylvesters911/BlogPost/blob/master/BlogPostResults.ipynb) 
+The results can be viewed [here]() 
 
 ## Additional Links to View Folium Map
 
